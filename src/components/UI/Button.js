@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 const Button = styled.button`
-    width: 18rem;
+    max-width: 18rem;
     padding: 1rem 1.5rem;
     border: none;
     cursor: pointer;

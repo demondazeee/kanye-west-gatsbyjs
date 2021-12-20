@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Button from '../UI/Button'
 
 const Container = styled.div`
-    margin: 10rem 0;
+    margin: 10rem 1rem;
 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ const Container = styled.div`
 `
 
 const QuoteBlock = styled.div`
-    width: 40rem;
+    max-width: 40rem;
     box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.25);
     height: 6.3rem;
     border-radius: 0.8rem;
